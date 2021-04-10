@@ -26,11 +26,13 @@ body {
   font-family: Arial;
   padding: 10px;
   background-color: #f1f1f1;
-  
- 
- 
 
 }
+.navbar{
+  color: blue;
+}
+
+
 
 /*--------------------------------------------------------------------------------- */
 
@@ -97,6 +99,7 @@ body {
   font-family: "Courgette", cursive;
   font-size: 25px;
   text-align:center;
+ 
 
   
 
@@ -288,7 +291,7 @@ body {
 }
 
 @keyframes imgFade{
-  0% {opacity: 1; top: 75px;}
+  0% {opacity: 1; top: 180px;}
   45% {opacity: 1;}
   55% {opacity: 0; top: 20px; }
   100%{opacity: 0; top: 0px;}
@@ -478,7 +481,65 @@ input.invalid {
 }
 
 /*--------------------------------------------------------------------------------- */
+.navbar {
+  overflow: hidden;
+  background-color:brown;
+}
 
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(37, 21, 2, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 
 

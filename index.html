@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="Stylesheet.css">
     
     
-    <title>Assignment1</title>
+    <title>Project1</title>
 </head>
 
 <body >
   
+
   
 
    
@@ -43,6 +44,24 @@
         <!------------------------------------------------------>
         <div class="row">
           
+          <!--navigation bar-->
+          
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">Documents 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Storyboard horizontal banner (Task 1).pdf" target="_blank">Storyboard horizontal banner (Task 1)</a>
+      <a href="Storyboard vertical banner (Task 2).pdf" target="_blank">Storyboard vertical banner (Task 2)</a>
+      <a href="Wireframe.pdf" target="_blank">Wireframe</a>
+    </div>
+  </div> 
+</div>
+
+
+
+
         <!--Booking System Left Column------------------------->
           <div class="leftcolumn">
             <div class="card">
@@ -255,16 +274,16 @@
 
               <script>
                 let images = [];
-                images[0] = "milfordsound.jpg";
+                images[0] = "glamping2.jpg";
                 images[1] = "milford4.jpg";
-                images[2] = "milford5.jpg";
+                images[2] = "bike.jpg";
                 //images[3] = "../Project1/milford3.webp";
-                images[3] = "milford 2.jpg";
+                images[3] = "queenstown.jpg";
                 let imgContainer = document.getElementById("image-container");
                 let textAnime = document.getElementById("textAnime");
 
                 let count= 0;
-                let time = 2000;
+                let time = 2500;
 
                 const imageSlide = () => 
                 {
@@ -277,17 +296,17 @@
                   }
                   if (count==0){
                     //changing content of html
-                    textAnime.innerHTML="Switch camping for glamping"
+                    textAnime.innerHTML="See milford sound in a new light"
                   }
                   if (count==1){
                     //changing content of html
-                    textAnime.innerHTML="Find new Escapes"
+                    textAnime.innerHTML="Switch camping for glamping"
                   }
                   if (count==2){
-                    textAnime.innerHTML="Discover Pristine greenery"
+                    textAnime.innerHTML="Find new escapes"
                   }
                   if (count==3){
-                    textAnime.innerHTML="See Milford sound in a new light"
+                    textAnime.innerHTML="Discover pristine greenery"
                   }
 
 
